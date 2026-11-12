@@ -1,0 +1,22 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+
+# Local user data and generated indexes
+data/raw/*
+data/processed/*
+vectorstore/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!vectorstore/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
